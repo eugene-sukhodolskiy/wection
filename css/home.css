@@ -1,0 +1,166 @@
+#home{
+    width: 100%;
+}
+
+#home .slide{
+    width: 100%;
+    height: 735px;
+    background-image: url('../imgs/home.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    box-shadow: 0 0 7px #333;
+}
+
+#home .content{
+    width: 100%;
+}
+
+#home .content ul{
+    position: relative;
+    left: 50%;
+    top: auto;
+    margin-top: -150px;
+    width: 1200px;
+    margin-left: -554px;
+}
+
+#home .content li{
+    display: inline-block;
+    width: 320px;
+    margin-left: 70px;
+    background: white;
+    box-shadow: 0 0 3px #999;
+    vertical-align: top;
+}
+
+#home .content li:first-of-type{
+    margin-left: 0;
+}
+
+#home .content li h3{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00796B;
+    text-align: center;
+}
+
+#home .content li p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 280px;
+}
+
+#home .serv{
+    width: 100%;
+    text-align: center;
+}
+
+#home h2{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#home .serv ul{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#home .serv ul li,
+#home .platforms li{
+    display: inline-block;
+    margin-left: 32px;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 3px #999;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center 30px;
+    vertical-align: top;
+    padding-top: 260px;
+    transition-duration: .3s;
+}
+
+#home .serv li h3,
+#home .platforms li h3{
+    margin-bottom: 30px;
+    transition-duration: .5s;
+}
+
+#home .serv li p,
+#home .platforms li p{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+
+#home .serv ul li:first-of-type{
+    margin-left: 0px;
+}
+
+#home .serv li:nth-of-type(1){
+    background-image: url('../imgs/icons/design.png');
+}
+
+#home .serv li:nth-of-type(2){
+    background-image: url('../imgs/icons/code1.png');
+}
+
+#home .serv li:nth-of-type(3){
+    background-image: url('../imgs/icons/seo.png');
+}
+
+#home .serv li:nth-of-type(4){
+    background-image: url('../imgs/icons/translate_icon.png');
+}
+
+#home .order{
+    width: 100%;
+    text-align: center;
+}
+
+#home .order button{
+    display: inline-block;
+    background: none;
+    border: 2px solid #FF5722;
+    padding: 15px 0;
+    width: 300px;
+    color: #FF5722;
+    font-size: 21px;
+    border-radius: 5px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+#home .order button:hover{
+    background: #FF5722;
+    width: 340px;
+    color: white;
+}
+
+#home .platforms{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#home .platforms li{
+    width: 400px;
+    margin: 40px 0 0 0;
+    background-image: url('../imgs/icons/web_logo.png');
+    padding-bottom: 20px;
+}
+
+#home .platforms li:last-of-type{
+    margin-left: 32px;
+    background-image: url('../imgs/icons/android_logo.png');
+}
+
+
+

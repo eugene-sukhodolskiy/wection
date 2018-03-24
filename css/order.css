@@ -1,0 +1,298 @@
+#order{
+    margin-top: 125px;
+    width: 1080px;
+}
+
+#order .slide{
+    text-align: center;
+    height: 450px;
+    width: 1080px;
+}
+
+#order .slide-show{
+    width: 1080px;
+    height: 450px;
+}
+
+#order .slide-content{
+    display: inline-block;
+}
+
+#order button.back{
+    border-radius: 5px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin-top: 400px;
+    margin-left: 80px;
+    cursor: default;
+    width: 160px;
+    color: #767676;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 40px;
+    transition-duration: .4s;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-image: url('../imgs/icons/arrow-left-grey.png');
+    background-color: white;
+}
+
+#order button.back:hover{
+    padding-left: 60px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+#order .no-next-slide{
+    opacity: 0;
+}
+
+#order .nav-contain{
+    position: absolute;
+    left: 50%;
+    top: 590px;
+    margin: 0;
+    width: 280px;
+    margin-left: -140px;
+}
+
+#order .nav-contain li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#order .nav-contain button{
+    background: #FF5722;
+    width: 50px;
+    height: 6px;
+    border-radius: 2px;
+    box-shadow: none;
+    cursor: default;
+    opacity: .4;
+}
+
+#order .nav-contain button[data-active-slide]{
+    opacity: 1;
+}
+
+#order button[data-next]{
+    padding-left: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin-top: 400px;
+    margin-left: 840px;
+    cursor: pointer;
+    width: 150px;
+    color: #767676;
+    height: 35px;
+    line-height: 35px;
+    transition-duration: .4s;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto 100%;
+    background-image: url('../imgs/icons/arrow-right-grey.png');
+    background-color: white;
+}
+
+#order button[data-next]:hover{
+    width: 170px;
+}
+
+#order .grid{
+    text-align: left;
+    margin-top: 70px;
+}
+
+#order .grid .cell{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 90% auto;
+    background-color: white;
+    box-shadow: 0 0 3px #999;
+    margin-left: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#order .grid .cell:first-of-type{
+    margin-left: 0;
+}
+
+#order .grid .cell p{
+    margin-top: 170px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+}
+
+#order .grid .cell .check-box{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../imgs/icons/check_white.png');
+    transition-duration: .4s;
+    left: auto;
+    top: auto;
+    margin-top: 170px;
+    margin-left: 70px;
+    opacity: 0;
+}
+
+#order .grid .cell [data-check]{
+    background-image: url('../imgs/icons/check_green.png');
+}
+
+#order .grid .cell .back{
+    opacity: 0;
+    background: black;
+    position: absolute;
+    left: auto;
+    top: auto;
+    width: inherit;
+    height: inherit;
+    transition-duration: .4s;
+}
+
+#order .slide:nth-of-type(1) .cell:nth-of-type(1){
+    background-image: url('../imgs/icons/design.png');
+}
+
+#order .slide:nth-of-type(1) .cell:nth-of-type(2){
+    background-image: url('../imgs/icons/code1.png');
+}
+
+#order .slide:nth-of-type(1) .cell:nth-of-type(3){
+    background-image: url('../imgs/icons/seo.png');
+}
+
+#order .slide:nth-of-type(1) .cell:nth-of-type(4){
+    background-image: url('../imgs/icons/translate_icon.png');
+}
+
+#order .slide:nth-of-type(2) .cell:nth-of-type(2){
+    background-image: url('../imgs/icons/android_logo.png');
+}
+
+#order .slide:nth-of-type(2) .cell:nth-of-type(1){
+    background-image: url('../imgs/icons/web_logo.png');
+}
+
+#order .slide:nth-of-type(3) .cell:nth-of-type(1){
+    background-image: url('../imgs/icons/visitka_order.png');
+}
+
+#order .slide:nth-of-type(3) .cell:nth-of-type(2){
+    background-image: url('../imgs/icons/blog_order.png');
+}
+
+#order .slide:nth-of-type(3) .cell:nth-of-type(3){
+    background-image: url('../imgs/icons/corp_order.png');
+}
+
+#order .slide:nth-of-type(3) .cell:nth-of-type(4){
+    background-image: url('../imgs/icons/portfolio_order.png');
+}
+
+#order .slide .android .cell:nth-of-type(1){
+    background-image: url('../imgs/icons/android_app_icon.png');
+}
+
+#order .slide .android .cell:nth-of-type(2){
+    background-image: url('../imgs/icons/background_app_icon.png');
+}
+
+#order .slide .android .cell:nth-of-type(3){
+    background-image: url('../imgs/icons/mix_app_icon.png');
+}
+
+#order .slide .android .cell:nth-of-type(4){
+    background-image: url('../imgs/icons/widget_icon.png');
+}
+
+#order .slide:nth-of-type(4) .form li{
+    margin-top: 20px;
+}
+
+#order .slide:nth-of-type(4) .form li:first-of-type{
+    margin-top: 0;
+}
+
+#order .slide:nth-of-type(4) .form li textarea{
+    height: 195px;
+}
+
+#order .slide:nth-of-type(4) .form > ul > li{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#order .slide:nth-of-type(4) .form > ul > li:first-of-type{
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+#order .slide .background,
+#order .slide .background span{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 300px;
+    background: #00C853;
+    margin-left: 300px;
+    margin-top: 285px;
+    display: block;
+    transition-duration: .4s;
+}
+
+#order .slide .background span:nth-of-type(1){
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+#order .slide .background span:nth-of-type(2){
+    margin-left: 555px;
+    margin-top: -15px;
+}
+
+#order .slide:nth-of-type(5){
+    position: relative;
+}
+
+#order .slide:nth-of-type(5) .slide-content{
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin-top: 220px;
+    margin-left: -300px;
+    opacity: 0;
+    transition-duration: .4s;
+}
+
+#order .slide:nth-of-type(5) h2{
+    
+}
+
+
+
+
+

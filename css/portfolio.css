@@ -1,0 +1,75 @@
+#portfolio .grid{
+    width: 1000px;
+    height: auto;
+    text-align: left;
+    margin-top: 110px;
+}
+
+#portfolio{
+    width: 810px;
+}
+
+#portfolio .cell{
+    vertical-align: top;
+    margin-top: 10px;
+    width: 400px;
+    height: 260px;
+    display: inline-block;
+    box-shadow: 0 0 3px #999;
+    margin-left: 6px;
+}
+
+#portfolio .cell img.cover{
+    width: inherit;
+    height: 210px;
+    position: relative;
+    z-index: -100;
+}
+
+#portfolio .cell .back{
+    background: white;
+    opacity: .5;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: auto;
+    top: auto;
+    z-index: -99;
+    transition-duration: .4s;
+    opacity: 0;
+}
+
+#portfolio .cell .data-site-link{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    position: absolute;
+    z-index: 0;
+    margin-left: 170px;
+    margin-top: 130px;
+    color: white;
+    background-image: url('../imgs/icons/link.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70% 70%;
+    cursor: pointer;
+    box-shadow: 0 0 2px #999;
+    transition-duration: .4s;
+    opacity: 0;
+}
+
+#portfolio .cell .text{
+    height: 50px;
+    width: inherit;
+    background: #eee;
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin-top: -4px;
+    text-align: center;
+    color: #666;
+    line-height: 50px;
+    font-size: 16px;
+}
+

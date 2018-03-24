@@ -1,0 +1,173 @@
+#info h2{
+    width: 46%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 27%;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#info{
+    width: 100%;
+    margin-top: 140px;
+}
+
+#info .contain{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#info .slide-show{
+    height: 440px;
+}
+
+#info .slide{
+    margin-top: 30px;
+}
+
+#info h3{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #455A64;
+    text-align: center;
+}
+
+#info .contain .ul{
+    display: inline-block;
+}
+
+#info .contain li{
+    display: inline-block;
+    width: 300px;
+    margin-left: 50px;
+    background: white;
+    box-shadow: 0 0 3px #999;
+    vertical-align: top;
+    height: 380px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+#info .services li{
+    width: 300px;
+    position: relative;
+}
+
+#info .tech li{
+    cursor: auto;
+}
+
+#info .contain li:first-of-type{
+    margin-left: 0;
+}
+
+#info .contain li p{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#info .prices p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#info .nav-contain{
+    margin-top: -25px;
+    width: 100%;
+    text-align: center;
+}
+
+#info .nav-contain .wrap{
+    display: inline-block;
+    width: 1080px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#info .nav-contain li:first-of-type{
+    margin-left: 0;
+}
+
+#info .nav-contain button{
+    display: inline-block;
+    margin-left: 30px;
+    color: #aaa;
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    box-shadow: none;
+    margin-top: -5px;
+    line-height: 30px;
+    background: transparent;
+    opacity: 1;
+}
+
+#info .lang-list{
+    display: inline-block;
+}
+
+#info .lang-list li{
+    display: block;
+    margin-top: 10px;
+    height: auto;
+    margin-left: 10px;
+    box-shadow: none;
+    text-align: left;
+    font-family: "Roboto";
+    background: none;
+    font-size: 14px;
+    color: #333;
+}
+
+#info .lang-list li:before{
+    content: '-';
+    margin-right: 3px;
+}
+
+#info .lang-list li:first-of-type{
+    margin-left: 10px;
+}
+
+#info p span.price{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 18px;
+    font-family: "Roboto";
+    display: block;
+    position: absolute;
+    top: auto;
+    left: auto;
+    background: #1565C0;
+    color: white;
+    padding: 5px 10px;
+    width: 302px;
+    margin-left: -25px;
+    box-shadow: 0 0 3px #999;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+#info .nav-contain [data-active-slide]{
+    color: #333;
+    margin-right: 590px;
+    font-size: 20px;
+}
+
+#info .slide:nth-of-type(1) li,
+#info .slide:nth-of-type(2) li{
+    width: 230px;
+}
+
+#info .slide:nth-of-type(1) span.price,
+#info .slide:nth-of-type(2) span.price{
+    width: 240px;
+}
+

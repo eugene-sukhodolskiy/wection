@@ -1,0 +1,91 @@
+#home{
+    width: 100%;
+}
+
+#home .slide{
+    width: 100%;
+    height: 500px;
+    background-image: url('../imgs/cover-home.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+#home li{
+    box-shadow: 0px 0px 3px #999;
+    background: #EEE none repeat scroll 0% 0%;
+    margin-top: 30px;
+}
+
+#home li h3{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00796B;
+    text-align: center;
+}
+
+#home li p{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 280px;
+}
+
+#home .with-img{
+    width: 100%;
+    text-align: center;
+}
+
+#home .with-img h2{
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#home .with-img ul li{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center 30px;
+    padding-top: 270px;
+    width: 360px;
+    height: 215px;
+}
+
+#home .with-img li p{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+
+#home .serv ul li:first-of-type{
+    margin-left: 0px;
+}
+
+#home .serv li:nth-of-type(1){
+    background-image: url('../imgs/icons/design.png');
+}
+
+#home .serv li:nth-of-type(2){
+    background-image: url('../imgs/icons/code1.png');
+}
+
+#home .serv li:nth-of-type(3){
+    background-image: url('../imgs/icons/seo.png');
+}
+
+#home .serv li:nth-of-type(4){
+    background-image: url('../imgs/icons/translate_icon.png');
+}
+
+
+#home .platform li:nth-of-type(1){
+    background-image: url('../imgs/icons/web_logo.png');
+}
+
+#home .platform li:nth-of-type(2){
+    background-image: url('../imgs/icons/android_logo.png');
+}
